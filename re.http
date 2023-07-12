@@ -23,13 +23,18 @@ GET http://localhost:4000/student/rahul
 ### 
 
 
-PUT http://localhost:4000/student/64ae537e90ea5449978ce969/
+PUT http://localhost:4000/student/64ae59544910a1fa52ed22c6/
 
 Content-Type: application/json
 
 {
     "name" : "AvikBiswas" 
 }
+
+###
+
+DELETE http://localhost:4000/student/64ae57114910a1fa52ed22be/
+
 
 
 
