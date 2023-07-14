@@ -3,15 +3,16 @@ const mongoose = require('mongoose')
 const app = express()
 app.use(express.json())
 
-const  PORT = process.env.PORT || 4000 // either on 4000 or any 
+// const  PORT = process.env.PORT || 4000 // either on 4000 or any 
 const Student = require('./models/productModel')
 // app.listen(4000,()=> {
 //     console.log("Node is running on port 4000") ;
 // })
 // give <collecetion_name> before ? in bwlow url otherwise no problem it will name it as test 
+
 mongoose.connect("mongodb+srv://avik067:7Xs06bTTgsSHVdP0@cluster0.2lzopf4.mongodb.net/test?retryWrites=true&w=majority")
 .then(()=>{
-    app.listen(PORT,()=> {
+    app.listen(4000,()=> {
 
         console.log("Node is running on port 4000") ;
     
