@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require ('express')
 const mongoose = require('mongoose')
 const app = express()
@@ -10,7 +11,9 @@ const Student = require('./models/productModel')
 // })
 // give <collecetion_name> before ? in bwlow url otherwise no problem it will name it as test 
 
-mongoose.connect("mongodb+srv://avik067:7Xs06bTTgsSHVdP0@cluster0.2lzopf4.mongodb.net/test?retryWrites=true&w=majority")
+
+
+mongoose.connect(process.env.SECRET_MONGO_LINK)
 .then(()=>{
     app.listen(4000,()=> {
 
