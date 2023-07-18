@@ -22,6 +22,6 @@ const studentSchema = mongoose.Schema(
     }
 )
 
-const Student  = mongoose.model('Student',studentSchema) ;
-
+const Student  = mongoose.model('students',studentSchema) ;
+// 'students' will be created inside mongo db cluster which model like studentSchema
 module.exports = Student ;
