@@ -9,7 +9,7 @@ Content-Type: application/json
 {
     "name": "sudipto",
     "email" : "sudipto354@gmail.com" ,
-    "phone" : "763345544"
+    "phone_no" : "763345544"
 }
  
 ######
@@ -23,12 +23,12 @@ GET http://localhost:4000/student/rahul
 ### 
 
 
-PUT http://localhost:4000/student/64ae59544910a1fa52ed22c6/
+PUT http://localhost:4000/student/64ae56d64910a1fa52ed22bc/
 Content-Type: application/json
 
 {
-    "name" : "AvikB" ,
-    "phone" : "763345544"
+    "name" : "Suman" ,
+    "phone_no" : "56748685"
 }
 
 ###
