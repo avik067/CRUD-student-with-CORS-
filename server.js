@@ -28,7 +28,39 @@ mongoose.connect(process.env.SECRET_MONGO_LINK)
 
 app.get("/" ,(req,res) => {
 
-    res.send("Hi there")
+    res.send(`Hi there  : <br/><br/>   use root path  https://crud-mongoose-final.vercel.app/
+    <br/> <br/> 
+    use path /students/  get all the student : https://crud-mongoose-final.vercel.app/students
+    
+    <br/> <br/> 
+
+    use path student/<student_name>/ to get specific student data :  https://crud-mongoose-final.vercel.app/student/rahu
+    
+    <br/> <br/> 
+
+    use path student/<studnt_id>/ to delete student data : https://crud-mongoose-final.vercel.app/student/64ae57114910a1fa52ed22be/
+
+    <br/> <br/> 
+    
+    use path student/<studnt_id>/ to PUT : https://crud-mongoose-final.vercel.app/student/64ae57114910a1fa52ed22be/ \n
+    
+    PUT jason like :  { 
+        "name" : "AvikB" "," 
+        "phone" : "763345544 }
+    
+        <br/> <br/> 
+
+    POST new DATA in path  /student/ :  https://crud-mongoose-final.vercel.app/student/ 
+    PUT jason like :  "{ "name": "sudipto" "," + "email" : "sudipto354@gmail.com" ,
+        "phone" : "763345544" }
+
+    `
+    
+   
+  
+    
+    ) 
+    
 })
 
 /// get all the full list 

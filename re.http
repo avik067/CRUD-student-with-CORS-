@@ -27,7 +27,8 @@ PUT http://localhost:4000/student/64ae59544910a1fa52ed22c6/
 Content-Type: application/json
 
 {
-    "name" : "AvikB" 
+    "name" : "AvikB" ,
+    "phone" : "763345544"
 }
 
 ###
