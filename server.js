@@ -51,7 +51,7 @@ app.get("/" ,(req,res) => {
         <br/> <br/> 
 
     POST new DATA in path  /student/ :  https://crud-mongoose-final.vercel.app/student/ 
-    PUT jason like :  "{ "name": "sudipto" "," + "email" : "sudipto354@gmail.com" ,
+    PUT jason like :  "{ "name": "sudipto" , "email" : "sudipto354@gmail.com" ,
         "phone" : "763345544" }
 
     `
