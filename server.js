@@ -28,7 +28,7 @@ mongoose.connect(process.env.SECRET_MONGO_LINK)
 
 app.get("/" ,(req,res) => {
 
-    res.send(`Hi there  : <br/><br/>   use root path  https://crud-mongoose-final.vercel.app/
+    res.send(`Hi there 🙂 here are some examples to make use of these api : <br/><br/>   use root path  https://crud-mongoose-final.vercel.app/
     <br/> <br/> 
     use path /students/  get all the student : https://crud-mongoose-final.vercel.app/students
     
